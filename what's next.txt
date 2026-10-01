@@ -1,0 +1,1 @@
+clean the companies file and clean the city,state,country columns, they contain unusually longer text

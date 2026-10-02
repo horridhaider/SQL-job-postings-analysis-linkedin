@@ -1,6 +1,6 @@
 -- 1. Companies Table
 CREATE TABLE companies (
-    company_id INT PRIMARY KEY,
+    company_id BIGINT PRIMARY KEY,
     company_name VARCHAR(255),
     city VARCHAR(100),
     state VARCHAR(100),
@@ -44,3 +44,4 @@ CREATE TABLE job_details (
     skill_abr VARCHAR(50),
     industry_id VARCHAR(50)
 );
+

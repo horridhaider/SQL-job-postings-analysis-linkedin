@@ -1,6 +1,7 @@
-SELECT
-    DISTINCT job_details.skill_abr
-FROM
-    job_details
-JOIN
-    job_postings ON job_details.job_id = job_postings.job_id
+COPY companies FROM 'E:/coding/projects/sql/project2/cleaned_datasets/3_companies.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');
+
+COPY company_details FROM 'E:/coding/projects/sql/project2/cleaned_datasets/4_company_details.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');
+
+COPY job_postings FROM 'E:/coding/projects/sql/project2/cleaned_datasets/1_job_postings.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');
+
+COPY job_details FROM 'E:/coding/projects/sql/project2/cleaned_datasets/2_job_skills_industry.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');

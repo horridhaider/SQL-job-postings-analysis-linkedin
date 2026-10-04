@@ -83,3 +83,8 @@ Dataset: [LinkedIn Job Postings Dataset](https://www.kaggle.com/datasets/rajatra
 License: [CC BY-SA 4.0]
 Files used: job_postings, job_skills, job_industries, companies, company_industries, company_specialities
 Downloaded: October 2026. Raw files are included in `raw_datasets/` unmodified.
+
+## 📄 Licenses
+- **Code** (notebooks, SQL, scripts): [MIT](LICENSE)
+- **Data** (`raw_datasets/`, `cleaned_datasets/`): CC BY-SA 4.0, as above.
+  Cleaned files are adaptations and carry the same license.

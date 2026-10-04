@@ -58,7 +58,7 @@ Export the cleaned outputs into your designated output directory.
 Execute table creation DDLs and data loading scripts in VS Code or `psql`:
 ```sql
 -- Create schema and load cleaned CSVs
-\i schema.sql
+\i schemas/1_creating_tables.sql
 \copy companies FROM 'path/to/3_companies.csv' WITH (FORMAT csv, HEADER true);
 \copy company_details FROM 'path/to/4_company_details.csv' WITH (FORMAT csv, HEADER true);
 \copy job_postings FROM 'path/to/1_job_postings.csv' WITH (FORMAT csv, HEADER true);
@@ -73,5 +73,6 @@ Execute table creation DDLs and data loading scripts in VS Code or `psql`:
 - [x] Exploratory Data Analysis (EDA)
 - [x] Schema Design & FK Constraints
 - [x] Automated CSV Bulk Ingestion Scripting
-- [ ] SQL Exploratory Analysis & Reporting Queries
+- [x] SQL Exploratory Analysis & Reporting Queries
+- [x] In-Depth Analysis within different Dimensions
 - [ ] Power BI Dashboard Development

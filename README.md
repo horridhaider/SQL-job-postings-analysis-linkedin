@@ -76,3 +76,10 @@ Execute table creation DDLs and data loading scripts in VS Code or `psql`:
 - [x] SQL Exploratory Analysis & Reporting Queries
 - [x] In-Depth Analysis within different Dimensions
 - [ ] Power BI Dashboard Development
+
+## 📊 Data Source
+
+Dataset: [LinkedIn Job Postings Dataset](https://www.kaggle.com/datasets/rajatraj0502/linkedin-job-2023?select=job_skills.csv) by [Rajat Raj], via Kaggle.
+License: [CC BY-SA 4.0]
+Files used: job_postings, job_skills, job_industries, companies, company_industries, company_specialities
+Downloaded: October 2026. Raw files are included in `raw_datasets/` unmodified.
